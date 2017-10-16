@@ -1,0 +1,22 @@
+CODING GUIDELINES
+
+1. Use “CAMEL CASE”. In camel case the first letter of first word is always in small caps and the first letter of rest of the words would be in upper case. i.e nomanMaqsood, storeProducts etc.
+
+2. Use proper english when writing code. Coding is an art don’t mess it up with your own funky coding style.
+	- Put Space after every coma (,)
+	- Put Space before every opening bracket “(“ and after closing bracket “)”
+	- Put Space before and after every equal sign or any other logical or arithmetic 	symbol. i.e a = b
+	- Put a line break after every opening curly bracket “{“
+	- Put Space between a JSON key value pair. i.e. { key : “value” } if there are 		more than one values then there should be only one value per line i.e:
+		var a = {
+			key1 : “value1”,
+			key2 : “value2”,
+			key3 : “value3”
+		}
+	- Do not add id, createdAt and updatedAt field in Model schema, Sequelize does it automatically and do not add the foreign keys from other models i.e storeId, 		customerId etc.
+	- Use proper readable names for variables.
+	- When writing functions use one tab for the function body and no tab for the function declaration.
+
+
+
+IF YOU WON’T FOLLOW THE ABOVE MENTIONED CONVENTIONS I WILL REMOVE THE FILE WITHOUT INFORMING YOU WHAT WAS THE PROBLEM AND YOU WILL HAVE TO DO THAT ALL OVER AGAIN.

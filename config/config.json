@@ -1,0 +1,27 @@
+{
+    "dev": {
+        "username": "root",
+        "password": "",
+        "database": "testDB",
+        "host": "localhost",
+        "dialect": "mysql",
+        "emailbounce": "info@testDB.ae",
+        "emailfrom": "info@testDB.ae",
+        
+    },
+    "live": {
+        "username": "testDB",
+        "password": "testDB",
+        "database": "testDB",
+        "host": "test",
+        "dialect": "mysql",
+        "emailbounce": "info@testDB.ae",
+        "emailfrom": "info@testDB.ae",
+        "aws": {
+            "key": "test",
+            "secret": "test",
+            "region": "us-east-1",
+            "data_bucket": "testDB-data"
+        }
+    }
+}
